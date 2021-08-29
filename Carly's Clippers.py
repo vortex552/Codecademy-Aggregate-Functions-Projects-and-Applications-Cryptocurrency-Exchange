@@ -28,7 +28,7 @@ new_prices = [price - 5 for price in prices]
 print("New Prices: " + str(new_prices))
 
 #sets the total revenue to 0
-total_revenue = 0
+total_revenue = 0 
 
 #calculates the total revenue by calculating the product of the prices and last weeks sold haircuts
 for i in range(len(hairstyles)): 
