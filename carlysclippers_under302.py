@@ -11,6 +11,7 @@ cuts_under_30 = [hairstyles[hairstyle] for hairstyle in range(len(hairstyles)) i
 print(cuts_under_30)
 
 #the code below produces the same output as the above
+
 under_30_hairstyles = list
 under_30_hairstyles = []
 i = 0
