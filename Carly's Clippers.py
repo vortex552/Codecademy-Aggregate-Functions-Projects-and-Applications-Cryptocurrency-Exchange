@@ -44,10 +44,10 @@ average_daily_revenue = total_revenue / 7
 print("Average Daily Revenue: $" + str(average_daily_revenue))
 
 #so if I am not mistaken hairstyles[i] refers to each individual hairstyle
-#i refers to the new_prices
+#i refers to the location of a value in new_prices
 #range(len(new_prices)) counts the number of new_prices and makes it count from 0 to the number of new_prices
 #new_prices[i] < 30 stets a condition that these haircuts are only to be listed when they are under $30
-cuts_under_30 = [hairstyles[hairstyle] for hairstyle in range(len(hairstyles)) if new_prices[hairstyle] < 30]
+cuts_under_30 = [hairstyles[i] for i in range(len(hairstyles)) if new_prices[i] < 30]
 
 #prints out the cuts under $30
 print("Cuts Under $30: " + str(cuts_under_30))
